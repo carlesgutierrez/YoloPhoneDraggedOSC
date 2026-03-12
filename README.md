@@ -1,6 +1,8 @@
-# YOLOv8 Person & Phone Detector
+# YoloPhoneDraggedOSC (Atari Edition)
 
-Este proyecto es un detector de objetos en tiempo real que utiliza **YOLOv8** para identificar personas y teléfonos celulares. Si el programa detecta a una persona y un teléfono al mismo tiempo, activa una alerta visual parpadeante.
+![Detección de Teléfono](capturas/CapturaAPP.JPG)
+
+Este proyecto integra visión artificial con **YOLOv8** y comunicación **OSC** para controlar software externo como **Wekinator**. Identifica personas y teléfonos celulares para generar un control interactivo.
 
 ## 🚀 Cómo empezar
 
