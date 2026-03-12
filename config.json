@@ -1,0 +1,20 @@
+{
+    "trigger_tags": [
+        "person",
+        "cell phone"
+    ],
+    "alert_message": "USA EL TELEFONO!",
+    "alert_color": [
+        255,
+        20,
+        147
+    ],
+    "font_scale": 120,
+    "font_thickness": 6,
+    "show_confidence": true,
+    "camera_width": 1280,
+    "camera_height": 720,
+    "osc_ip": "127.0.0.1",
+    "osc_port": 6448,
+    "osc_tag": "/wek/inputs"
+}
