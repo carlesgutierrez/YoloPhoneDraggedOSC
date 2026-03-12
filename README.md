@@ -41,7 +41,8 @@ Este proyecto ha sido una colaboración entre **Carles Gutiérrez** y **Gemini 3
 10. **Instalador Inteligente**: Script que automatiza la detección de hardware y librerías.
 11. **Smart Phone Tracking**: Marcado con una cruz (X) del teléfono más grande detectado.
 12. **Integración OSC (Wekinator)**: Envío de la posición (X, Y) normalizada del teléfono vía OSC (puerto 6448 por defecto).
-13. **Persistencia y Leyenda**: Marcado de la última posición conocida y leyenda en pantalla con estados de conexión (Verde/Amarillo/Rojo).
+13. **Modo Espejo (Mirror)**: Opción en `config.json` para invertir la cámara horizontalmente (activado por defecto).
+14. **Persistencia y Leyenda**: Marcado de la última posición conocida y leyenda en pantalla con estados de conexión (Verde/Amarillo/Rojo).
 
 ---
 

@@ -120,6 +120,7 @@ def main():
     show_conf = bool(config.get("show_confidence", True))
     cam_w = int(config.get("camera_width", 1280))
     cam_h = int(config.get("camera_height", 720))
+    mirror_cam = bool(config.get("mirror_camera", True))
 
     # Configuración OSC
     osc_ip = str(config.get("osc_ip", "127.0.0.1"))
@@ -166,6 +167,9 @@ def main():
     while True:
         ret, frame = cap.read()
         if not ret: break
+
+        if mirror_cam:
+            frame = cv2.flip(frame, 1)
 
         detector.update_frame(frame)
         results = detector.results

@@ -16,5 +16,6 @@
     "camera_height": 720,
     "osc_ip": "127.0.0.1",
     "osc_port": 6448,
-    "osc_tag": "/wek/inputs"
+    "osc_tag": "/wek/inputs",
+    "mirror_camera": true
 }
